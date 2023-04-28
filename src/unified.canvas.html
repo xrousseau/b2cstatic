@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="utf-8" />
     <link
         rel="shortcut icon"
@@ -13,15 +13,34 @@
         rel="stylesheet"
     />
 
+    <link href="./assets/css/main.css" rel="stylesheet" />
     <link href="./assets/css/styles.css" rel="stylesheet" />
     <link href="./assets/css/styles.buttons.css" rel="stylesheet" />
     <link href="./assets/css/styles.forms.css" rel="stylesheet" />
     <link href="./assets/css/styles.pages.css" rel="stylesheet" />
-    <script src="./assets/js/"></script>
+    <script src="./assets/js/w3.js"></script>
+
     <title>The Dodo airline</title>
-    </head>
-    <body>
-    <div class="container" id="page-login">
+  </head>
+  
+  <body>
+    <header>
+        <div class="containerb2c">
+        <h1>🦤 The Dodo Airline Company</h1>
+        <nav>
+            <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            <a class="btn" href="#">Sign Up</a>
+        </nav>
+        </div>
+    </header>
+
+
+    <div class="containerb2c" id="page-login">
         <div class="row">
         <div id="api" w3-include-html="./unified.canvas.partial.html"></div>
         </div>
@@ -30,5 +49,8 @@
     <script>
         w3.includeHTML();
     </script>
-    </body>
+    <footer>
+    <p>&copy; 2023 The Dodo Airline Company. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
