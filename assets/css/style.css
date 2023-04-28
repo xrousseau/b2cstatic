@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #f00;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #f00;
+    border: 1px solid #f00;
+  }
+  
+  .flights h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .flight-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flight {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .flight img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .flight h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  
+  .flight p {
+    font-size: 1.2rem;
+    margin: 20px;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .intro {
+    /* intro text for social and local sign-in */
+  }
+
+
+  .accountButton {
+    /* social media button */
+  }
+
+  .divider {
+    // divider between social and local sign-in
+  }
+
+  .localAccount {
+    /* form level style */
+  }
+
+  .create {
+
+    /* create a new account link */
+  }
+
+  .entry {
+    /* div containing the inputs */
+  }
+
+  .entry-item {
+    /* div containing the individual input */
+  }
+
+  .error {
+    /* form error */
+  }

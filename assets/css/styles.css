@@ -1,0 +1,32 @@
+#api {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#api ul,
+#api ul li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 0;
+  margin: 0;
+}
+
+.containerb2c {
+  height: 100% !important;
+  display: flex;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.intro h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#forgotPassword {
+  font-size: 12px;
+}
